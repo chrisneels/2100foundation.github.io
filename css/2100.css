@@ -1,0 +1,75 @@
+/*!
+ * This is 2100 Foundation
+ */
+
+
+
+body {
+  color: white;
+  min-height: 100vh;
+  background: black;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 24px;
+  width: 606px;
+}
+
+h1, h2 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+p, footer {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: red;
+}
+
+#comingsoon {
+  margin-bottom: 120px;
+}
+
+#bottom {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.tightlist {
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+footer {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
